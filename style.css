@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #272b2e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 400px;
+  background: #c6ced3;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+.generatePass {
+  position: relative;
+}
+.generatePass input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 22px;
+  padding: 4px 8px;
+}
+
+.generatePass i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.selectItems {
+  margin: 20px 0px;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.select label {
+  font-size: 20px;
+}
+
+.select input[type="number"] {
+  width: 70px;
+  padding: 4px 8px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.select input[type ="checkbox"]{
+  width: 18px;
+  cursor: pointer;
+}
+
+.generateBtn{
+  width: 100%;
+  background: #b1aeae;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}

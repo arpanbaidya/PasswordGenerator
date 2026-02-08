@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generation App || CodeByGaurav</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Password Generator</h1>
+      <div class="generatePass">
+        <input
+          type="text"
+          id="passwordGenerate"
+          readonly
+          placeholder=" ABc@321Abb"
+        />
+        <i id="copyBtn" class="fa-solid fa-copy"></i>
+      </div>
+      <div class="selectItems">
+        <div class="select">
+          <label for="length">Password Length</label>
+          <input type="number" id="length" min="1" max="20" value="8" />
+        </div>
+        <div class="select">
+          <label for="lower">Include Lowercase</label>
+          <input type="checkbox" id="lower" />
+        </div>
+        <div class="select">
+          <label for="upper">Include Uppercase</label>
+          <input type="checkbox" id="upper" />
+        </div>
+        <div class="select">
+          <label for="number">Include Numbers</label>
+          <input type="checkbox" id="number" />
+        </div>
+        <div class="select">
+          <label for="symbol">Include Symbols</label>
+          <input type="checkbox" id="symbol" />
+        </div>
+      </div>
+      <div>
+        <button class="generateBtn" id="generateBtn">Generate Password</button>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
